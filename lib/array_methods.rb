@@ -10,7 +10,7 @@ end
 def find_max_value(array)
   max = array[0]
   array.length { |val|
-    if val > max
+    if val >= max
       max = val
     end
   }
